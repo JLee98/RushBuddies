@@ -29,28 +29,28 @@ class MainViewController: UITableViewController {
         
         // Default theme settings.
         navigationController!.navigationBar.backgroundColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-        navigationController!.navigationBar.barTintColor = UIColor(red: 0xF5/255.0, green: 0x85/255.0, blue: 0x35/255.0, alpha: 1.0)
-        navigationController!.navigationBar.tintColor = UIColor.white
+        navigationController!.navigationBar.barTintColor = UIColor(red: 245.0/255.0, green: 133.0/255.0, blue: 53.0/255.0, alpha: 1.0)
+        navigationController!.navigationBar.tintColor = UIColor.black
 
             presentSignInViewController()
         
         var demoFeature = DemoFeature.init(
-            name: NSLocalizedString("User Sign-in",
-                comment: "Label for demo menu option."),
-            detail: NSLocalizedString("Enable user login with popular 3rd party providers.",
-                comment: "Description for demo menu option."),
+            name: NSLocalizedString("RushBuddies!",
+                comment: "Come Get Active!"),
+            detail: NSLocalizedString("RushBuddies!",
+                comment: "Come Get Active!"),
             icon: "UserIdentityIcon", storyboard: "UserIdentity")
         
-        demoFeatures.append(demoFeature)
-        
-        demoFeature = DemoFeature.init(
-            name: NSLocalizedString("NoSQL",
-                comment: "Label for demo menu option."),
-            detail: NSLocalizedString("Store data in the cloud.",
-                comment: "Description for demo menu option."),
-            icon: "NoSQLIcon", storyboard: "NoSQLDatabase")
-        
-        demoFeatures.append(demoFeature)
+       demoFeatures.append(demoFeature)
+////
+////        demoFeature = DemoFeature.init(
+////            name: NSLocalizedString("NoSQL",
+////                comment: "Label for demo menu option."),
+////            detail: NSLocalizedString("Store data in the cloud.",
+////                comment: "Description for demo menu option."),
+////            icon: "NoSQLIcon", storyboard: "NoSQLDatabase")
+//        
+//        demoFeatures.append(demoFeature)
 
                 signInObserver = NotificationCenter.default.addObserver(forName: NSNotification.Name.AWSIdentityManagerDidSignIn, object: AWSIdentityManager.default(), queue: OperationQueue.main, using: {[weak self] (note: Notification) -> Void in
                         guard let strongSelf = self else { return }
