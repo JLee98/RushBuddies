@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D08BD5C51E6164AE00FAB8B9 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08BD5C41E6164AE00FAB8B9 /* HealthKit.framework */; };
+		DA4A0A3F1E6217AA004AC373 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A0A3E1E6217AA004AC373 /* HomeScreenViewController.swift */; };
 		E7A30F0400590FFC00000000 /* UserPools.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29A8EF1C1300000000 /* UserPools.storyboard */; };
 		E7A30F0408BF076000000000 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E296E722BEB00000000 /* libz.tbd */; };
 		E7A30F04160373D100000000 /* NoSQLModelHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29DB1545C500000000 /* NoSQLModelHelpers.swift */; };
@@ -138,6 +139,7 @@
 		1DD70E29F52060B300000000 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = MySampleApp/Sdk/Facebook/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		1DD70E29FD4A677200000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D08BD5C41E6164AE00FAB8B9 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		DA4A0A3E1E6217AA004AC373 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeScreenViewController.swift; path = MySampleApp/App/HomeScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +243,7 @@
 		B401C9794777272A00000000 /* mainGroup */ = {
 			isa = PBXGroup;
 			children = (
+				DA4A0A3E1E6217AA004AC373 /* HomeScreenViewController.swift */,
 				B401C97938A4851D00000000 /* Frameworks */,
 				B401C979490877CE00000000 /* MySampleApp */,
 				B401C97938BD57B000000000 /* Products */,
@@ -494,6 +497,7 @@
 				E7A30F04559C37A800000000 /* AWSConfiguration.swift in Sources */,
 				E7A30F04DD8A217000000000 /* SignInViewControllerExtensions.swift in Sources */,
 				E7A30F04D880699D00000000 /* NoSQLSampleDataGenerator.swift in Sources */,
+				DA4A0A3F1E6217AA004AC373 /* HomeScreenViewController.swift in Sources */,
 				E7A30F04F785C57E00000000 /* UtilityFunctions.swift in Sources */,
 				E7A30F04CA72EF6200000000 /* NoSQLTableViewController.swift in Sources */,
 				E7A30F04E7C55F3E00000000 /* MainViewController.swift in Sources */,
