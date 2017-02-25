@@ -395,6 +395,9 @@
 				TargetAttributes = {
 					E66DC04E0000000000000000 = {
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.HealthKit = {
 								enabled = 1;
 							};
