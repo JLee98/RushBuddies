@@ -13,7 +13,8 @@ import HealthKitUI
 
 public class HomeScreenViewController:  UIViewController{
    
-    let healthStore = HKHealthStore()
+    let healthKitStore:HKHealthStore = HKHealthStore()
+
     
     
     override public func viewDidLoad() {
