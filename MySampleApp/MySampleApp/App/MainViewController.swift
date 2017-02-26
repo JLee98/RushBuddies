@@ -34,24 +34,24 @@ class MainViewController: UITableViewController {
 
             presentSignInViewController()
         
-        var demoFeature = DemoFeature.init(
-            name: NSLocalizedString("RushBuddies!",
-                comment: "Come Get Active!"),
-            detail: NSLocalizedString("RushBuddies!",
-                comment: "Come Get Active!"),
-            icon: "UserIdentityIcon", storyboard: "UserIdentity")
-        
-       demoFeatures.append(demoFeature)
-////
-////        demoFeature = DemoFeature.init(
-////            name: NSLocalizedString("NoSQL",
-////                comment: "Label for demo menu option."),
-////            detail: NSLocalizedString("Store data in the cloud.",
-////                comment: "Description for demo menu option."),
-////            icon: "NoSQLIcon", storyboard: "NoSQLDatabase")
+//        var demoFeature = DemoFeature.init(
+//            name: NSLocalizedString("RushBuddies!",
+//                comment: "Come Get Active!"),
+//            detail: NSLocalizedString("RushBuddies!",
+//                comment: "Come Get Active!"),
+//            icon: "UserIdentityIcon", storyboard: "UserIdentity")
 //        
-//        demoFeatures.append(demoFeature)
-
+//       demoFeatures.append(demoFeature)
+//////
+//////        demoFeature = DemoFeature.init(
+//////            name: NSLocalizedString("NoSQL",
+//////                comment: "Label for demo menu option."),
+//////            detail: NSLocalizedString("Store data in the cloud.",
+//////                comment: "Description for demo menu option."),
+//////            icon: "NoSQLIcon", storyboard: "NoSQLDatabase")
+////        
+////        demoFeatures.append(demoFeature)
+//
                 signInObserver = NotificationCenter.default.addObserver(forName: NSNotification.Name.AWSIdentityManagerDidSignIn, object: AWSIdentityManager.default(), queue: OperationQueue.main, using: {[weak self] (note: Notification) -> Void in
                         guard let strongSelf = self else { return }
                         print("Sign In Observer observed sign in.")
