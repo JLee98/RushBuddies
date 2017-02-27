@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01669901E634AC700EF8261 /* funFactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D016698F1E634AC700EF8261 /* funFactsController.swift */; };
 		D08BD5C51E6164AE00FAB8B9 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08BD5C41E6164AE00FAB8B9 /* HealthKit.framework */; };
 		DA4A0A3F1E6217AA004AC373 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A0A3E1E6217AA004AC373 /* HomeScreenViewController.swift */; };
 		E7A30F0400590FFC00000000 /* UserPools.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29A8EF1C1300000000 /* UserPools.storyboard */; };
@@ -138,6 +139,7 @@
 		1DD70E29ECDB1EF000000000 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		1DD70E29F52060B300000000 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = MySampleApp/Sdk/Facebook/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		1DD70E29FD4A677200000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D016698F1E634AC700EF8261 /* funFactsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = funFactsController.swift; path = MySampleApp/App/funFactsController.swift; sourceTree = SOURCE_ROOT; };
 		D08BD5C41E6164AE00FAB8B9 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		DA4A0A3E1E6217AA004AC373 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeScreenViewController.swift; path = MySampleApp/App/HomeScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,6 +194,7 @@
 				1DD70E29BEB8ABF100000000 /* Images.xcassets */,
 				1DD70E294259356100000000 /* Launch Screen.storyboard */,
 				1DD70E299983968D00000000 /* Main.storyboard */,
+				D016698F1E634AC700EF8261 /* funFactsController.swift */,
 				1DD70E29C07585FF00000000 /* MainViewController.swift */,
 				B401C9795ECE0C4A00000000 /* SignIn */,
 				B401C9795981A43200000000 /* SupportingFiles */,
@@ -484,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7A30F0463573C2F00000000 /* UserPoolSignUpViewController.swift in Sources */,
+				D01669901E634AC700EF8261 /* funFactsController.swift in Sources */,
 				E7A30F04253457D100000000 /* NoSQLQueryResultViewController.swift in Sources */,
 				E7A30F041744278F00000000 /* UserPoolNewPasswordViewController.swift in Sources */,
 				E7A30F04B198029400000000 /* SignInViewController.swift in Sources */,
